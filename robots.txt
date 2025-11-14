@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://liberatuluzinterior.com/sitemap.xml
+
+# Bloquear archivos innecesarios
+Disallow: /assets/testimonios/
+Disallow: /*.php$
+
+# Permitir rastreo de CSS y JS
+Allow: /styles.css
+Allow: /script.js
